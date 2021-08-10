@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --space-cadet: #22223bff;
     --independence: #4a4e69ff;
@@ -72,4 +73,80 @@ a img {
 }
 ul li a:hover {
     color: var(--silver-pink)
+=======
+:root {
+    --space-cadet: #22223bff;
+    --independence: #4a4e69ff;
+    --heliotrope-gray: #9a8c98ff;
+    --silver-pink: #c9ada7ff;
+    --isabelline: #f2e9e4ff; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+}
+
+body {
+    background-color: var(--silver-pink);
+    color: var(--space-cadet);
+    display:flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+header nav ul {
+    color: var(--heliotrope-gray)
+}
+
+.header {
+    background-color: var(--space-cadet);
+    color: var(--isabelline);
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 9px solid var(--heliotrope-gray)
+}
+
+#aboutMe {
+    color: var(--isabelline);
+    background-color: var(--independence);
+    border: 9px solid var(--heliotrope-gray)
+}
+
+nav ul{
+    display: inline-block
+}
+
+.headerImage {
+    display: inline-flex;
+    height: 500px;
+}
+
+section.container {
+    display: inline-block;
+    text-align: justify;
+}
+
+container#largeProject {
+    display: block;
+}
+
+a img {
+    height:600px;
+    display: inline-block;
+}
+
+#smallProject {
+    display: flex;
+    max-width: 500px;
+}
+.contactMe {
+    text-align: center;
+    background-color: var(--independence);
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--isabelline)
+}
+ul li a:hover {
+    color: var(--silver-pink)
+>>>>>>> e41b7f0b560420a4c3ce90d81ec93e9e7481655c
 }
