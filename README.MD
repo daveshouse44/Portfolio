@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 # Portfolio
-> This is my updated Profile Page
+> This is my updated Profile Page!
 
-> Live demo [_here_](https://github.com/daveshouse44/Portfolio)
+With diverse talent in many industries, Dave is taking his MERN stack development knowledge to his consultation business.
 
-=======
-# Portfolio
-> This is my updated Profile Page
+Website development, UX interface, Restaurant and building consulting, Repairs, and pretty much anything you need he can help.
 
-> Live demo [_here_](https://github.com/daveshouse44/Portfolio)
+When he is not busy with work or personal projects, Dave enjoys outdoor adventures with his wife and two dogs!
 
->>>>>>> e41b7f0b560420a4c3ce90d81ec93e9e7481655c
-![Screenshot](images\Untitled.png)
+> [Check out the full portfolio here](https://github.com/daveshouse44/Portfolio)
+
+![Screenshot](images/Untitled.png)

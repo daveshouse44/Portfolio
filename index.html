@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +12,7 @@
     <header class="header">
         <h1><div>Dave Tierney</div></h1>
         <nav>
-            <ul>
+            <ul class="flexbox">
                 <li><a href="#aboutMe">About Me</a></li>
                 <li><a href="#myProjects">My Projects</a></li>
                 <li><a href="#contactMe">Contact Me</a></li>
@@ -23,7 +22,7 @@
 
     <div class="headerImage">
         <img src="images/Profile Pic2.jpg" id="myPicture" alt="Profile picture David Tierney">
-        <img src="images/pexels-pratik-gupta-2748716.png" alt="blurry rain drops">
+        <!--Moved to CSS <img src="images/pexels-pratik-gupta-2748716.png" id="header-background" alt="blurry rain drops">-->
     </div>
 
     <section id="aboutMe">
@@ -35,7 +34,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="myProjects">
         <h2>My Projects</h2>
         <button id="largeProject">
             <h3>HTML/CSS/JAVA</h3>
@@ -49,71 +48,9 @@
         </button>
 
         <button class="smallProject">
-            <h3>Restaurant and Design Consulting</h3>
-            <a href=""> <img src="images/pexels-volkan-vardar-3887985.png" alt="restaurant tables design layout"></a>
+            <h3>U.S. National Park Weather App</h3>
+            <a href="https://cumar-khalif.github.io/U.S.-National-Parks/"> <img src="images/homePage.png" alt="homepage for national park search with mountainous background and a search by state dropbox"></a>
         </button>
-        </div>
-
-    </section>
-    
-    <footer class="contactMe">
-        <div>
-            <a href="mailto: daveshouse44@hotmail.com">Email Dave now!</a>
-            <a href="https://www.linkedin.com/in/david-tierney-652030214/">Linked In</a>
-            <a href="https://github.com/daveshouse44">Git Hub</a>
-        </div>
-    </footer>
-</body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dave Tierney | Developer</title>
-</head>
-
-<body>
-    <header class="header">
-        <h1><div>Dave Tierney</div></h1>
-        <nav>
-            <ul>
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#myProjects">My Projects</a></li>
-                <li><a href="#contactMe">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="headerImage">
-        <img src="images/Profile Pic2.jpg" id="myPicture" alt="Profile picture David Tierney">
-        <img src="images/pexels-pratik-gupta-2748716.png" alt="blurry rain drops">
-    </div>
-
-    <section id="aboutMe">
-        <h2>About Me</h2>
-        <div class="aboutContainer">
-            <p>With diverse talent in many industries, Dave is taking his MERN stack development knowledge to his consultation business.</p>
-            <p>Website development, UX interface, Restaurant and building consulting, Repairs, and pretty much anything you need he can help.</p>
-            <p>When he is not busy with work or personal projects, Dave enjoys outdoor adventures with his wife and two dogs!</p>    
-        </div>
-    </section>
-
-    <section class="container">
-        <h2>My Projects</h2>
-        <button id="largeProject">
-            <h3>HTML/CSS/JAVA</h3>
-            <a href="https://daveshouse44.github.io/bootcamp-projects/"> <img src=images/pexels-markus-spiske-1089440.png alt="coding language on monitor"></a>
-        </button>
-        
-        <div>   
-        <button class="smallProject">
-            <h3>Node/IoT</h3>
-            <a href="https://www.w3schools.com/"> <img src="images/pexels-lukas-574069.png" alt="laptop coding on desktop with watch"></a>
-        </button>
-
         <button class="smallProject">
             <h3>Restaurant and Design Consulting</h3>
             <a href=""> <img src="images/pexels-volkan-vardar-3887985.png" alt="restaurant tables design layout"></a>
@@ -122,7 +59,7 @@
 
     </section>
     
-    <footer class="contactMe">
+    <footer class="contactMe" id="contactMe">
         <div>
             <a href="mailto: daveshouse44@hotmail.com">Email Dave now!</a>
             <a href="https://www.linkedin.com/in/david-tierney-652030214/">Linked In</a>
@@ -130,5 +67,4 @@
         </div>
     </footer>
 </body>
->>>>>>> e41b7f0b560420a4c3ce90d81ec93e9e7481655c
 </html>
