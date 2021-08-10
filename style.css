@@ -39,6 +39,12 @@ header nav ul {
     border: 9px solid var(--heliotrope-gray);
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
 .headerImage {
     position: relative;
     display: flex;
@@ -78,15 +84,6 @@ container#largeProject {
     display: block;
 }
 
-a img {
-    height:600px;
-    display: inline-block;
-}
-
-#smallProject {
-    display: flex;
-    max-width: 500px;
-}
 .contactMe {
     text-align: center;
     background-color: var(--independence);

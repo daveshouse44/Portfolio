@@ -7,6 +7,6 @@ Website development, UX interface, Restaurant and building consulting, Repairs, 
 
 When he is not busy with work or personal projects, Dave enjoys outdoor adventures with his wife and two dogs!
 
-> [Check out the full portfolio here](https://github.com/daveshouse44/Portfolio)
+> [Check out the full portfolio here](https://daveshouse44.github.io/Portfolio/)
 
 ![Screenshot](images/Untitled.png)
