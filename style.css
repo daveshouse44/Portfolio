@@ -21,6 +21,7 @@ header nav ul {
     display: flex;
     list-style: none;
     padding: .5em;
+    gap: 1em;
 }
 
 .header {
@@ -33,10 +34,16 @@ header nav ul {
     border: 9px solid var(--heliotrope-gray);
 }
 
+#myName {
+    text-shadow: .4em .4em 1em grey;
+    line-height: 1em;
+}
+
 #aboutMe {
     color: var(--isabelline);
     background-color: var(--independence);
     border: 9px solid var(--heliotrope-gray);
+    text-align: center;
 }
 
 img {
@@ -76,12 +83,28 @@ img {
 section.container {
     padding: 1.25em;
     border: 9px solid var(--heliotrope-gray);
+    width: auto;
     display: inline-block;
+    text-align: justify;
+    align-items: center;
+}
+
+.containerSmall {
+    padding: 1.25em;
+    border: 9px solid var(--heliotrope-gray);
+    width: auto;
+    display: inline-flex;
     text-align: justify;
 }
 
-container#largeProject {
-    display: block;
+#largeProject {
+    display: bloc;;
+    width: fit-content;
+}
+
+.smallProject img {
+    height: 30em;
+    width: 40em;
 }
 
 .contactMe {
@@ -108,4 +131,9 @@ ul li a {
 
 ul li a:hover {
     color: var(--silver-pink);
+}
+@media (min-width: 450px){
+    #containerSmall img{
+        display: block;
+    }
 }
