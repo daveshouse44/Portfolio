@@ -1,78 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dave Tierney | Developer</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
     <header class="header">
-        <h1 id="myName">Dave Tierney</h1>
-        <nav>
-            <ul class="flexbox">
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#myProjects">My Projects</a></li>
-                <li><a href="#contactMe">Contact Me</a></li>
-            </ul>
-        </nav>
+      <h1 id="myName">Dave Tierney</h1>
+      <nav>
+        <ul class="flexbox">
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#myProjects">My Projects</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="headerImage">
-        <img src="images/Profile Pic2.jpg" id="myPicture" alt="Profile picture David Tierney">
-        <!--Moved to CSS <img src="images/pexels-pratik-gupta-2748716.png" id="header-background" alt="blurry rain drops">-->
+      <img
+        src="images/Profile Pic2.jpg"
+        id="myPicture"
+        alt="Profile picture David Tierney"
+      />
+      <!--Moved to CSS <img src="images/pexels-pratik-gupta-2748716.png" id="header-background" alt="blurry rain drops">-->
     </div>
 
     <section id="aboutMe">
-        <h2>About Me</h2>
-        <div class="aboutContainer">
-            <p>With diverse talent in many industries, Dave is taking his MERN stack development knowledge to his consultation business.</p>
-            <p>Website development, UX interface, Restaurant and building consulting, Repairs, and pretty much anything you need he can help.</p>
-            <p>When he is not busy with work or personal projects, Dave enjoys outdoor adventures with his wife and two dogs!</p>    
-        </div>
+      <h2>About Me</h2>
+      <div class="aboutContainer">
+        <p>
+          With diverse talent in many industries, Dave is taking his MERN stack
+          development knowledge to his consultation business.
+        </p>
+        <p>
+          Website development, UX interface, Restaurant and building consulting,
+          Repairs, and pretty much anything you need he can help.
+        </p>
+        <p>
+          When he is not busy with work or personal projects, Dave enjoys
+          outdoor adventures with his wife and two dogs!
+        </p>
+      </div>
     </section>
 
     <section class="container" id="myProjects">
-        <h2>My Projects</h2>
-        <button id="largeProject">
-            <h3>HTML/CSS/JAVA</h3>
-            <a href="https://daveshouse44.github.io/bootcamp-projects/"> <img src=images/pexels-markus-spiske-1089440.png alt="coding language on monitor"></a>
+      <h2>My Projects</h2>
+      <button id="largeProject">
+        <h3>Tech Blog</h3>
+        <a href="https://tech-blog-daveshouse44.herokuapp.com/">
+          <img
+            src="images/Tech_Blog.png"
+            alt="sceenshot of tech blog application"
+        /></a>
+      </button>
+
+      <section class="containerSmall">
+        <button class="smallProject">
+          <h3>Password Generator</h3>
+          <a href="https://daveshouse44.github.io/PasswordGenerator/">
+            <img
+              src="images/03-javascript-homework-demo.png"
+              id="smallProj1"
+              alt="laptop coding on desktop with watch"
+          /></a>
         </button>
-        
-        <section class="containerSmall">   
-            <button class="smallProject">
-                <h3>Node/IoT</h3>
-                <a href="https://www.w3schools.com/"> <img src="images/pexels-lukas-574069.png" id="smallProj1" alt="laptop coding on desktop with watch"></a>
-            </button>
 
-            <button class="smallProject">
-                <h3>U.S. National Park Weather App</h3>
-                <a href="https://cumar-khalif.github.io/U.S.-National-Parks/"> <img src="images/homePage.png" id="smallProj2" alt="homepage for national park search with mountainous background and a search by state dropbox"></a>
-            </button>
+        <button class="smallProject">
+          <h3>U.S. National Park Weather App</h3>
+          <a href="https://cumar-khalif.github.io/U.S.-National-Parks/">
+            <img
+              src="images/homePage.png"
+              id="smallProj2"
+              alt="homepage for national park search with mountainous background and a search by state dropbox"
+          /></a>
+        </button>
 
-            <button class="smallProject">
-                <h3>Restaurant and Design Consulting</h3>
-                <a href="https://www.linkedin.com/in/david-tierney-652030214/"> <img src="images/pexels-volkan-vardar-3887985.png" id="smallProj3" alt="restaurant tables design layout"></a>
-            </button>
+        <button class="smallProject">
+          <h3>Restaurant and Design Consulting</h3>
+          <a href="https://www.linkedin.com/in/david-tierney-652030214/">
+            <img
+              src="images/pexels-volkan-vardar-3887985.png"
+              id="smallProj3"
+              alt="restaurant tables design layout"
+          /></a>
+        </button>
 
-            <button class="smallProject">
-                <h3>Work Scheduler App</h3>
-                <a href="https://daveshouse44.github.io/WorkDayScheduler/"> <img src="images/Work-Day-Scheduler.png" id="smallProj3" alt="layout of the work schedule application screenshot"></a>
-            </button>
-
-        </section>
-
+        <button class="smallProject">
+          <h3>Work Scheduler App</h3>
+          <a href="https://daveshouse44.github.io/WorkDayScheduler/">
+            <img
+              src="images/Work-Day-Scheduler.png"
+              id="smallProj3"
+              alt="layout of the work schedule application screenshot"
+          /></a>
+        </button>
+      </section>
     </section>
-    
+
+    <div
+      class="badge-base LI-profile-badge"
+      data-locale="en_US"
+      data-size="medium"
+      data-theme="dark"
+      data-type="VERTICAL"
+      data-vanity="david-tierney-652030214"
+      data-version="v1"
+    >
+      <a
+        class="badge-base__link LI-simple-link"
+        href="https://www.linkedin.com/in/david-tierney-652030214?trk=profile-badge"
+        >David Tierney</a
+      >
+    </div>
+
     <footer class="contactMe" id="contactMe">
-        <div>
-            <a href="mailto: daveshouse44@hotmail.com">Email Dave now!</a>
-            <a href="https://www.linkedin.com/in/david-tierney-652030214/">Linked In</a>
-            <a href="https://github.com/daveshouse44">Git Hub</a>
-            <a href= "images/David_Tierney_Resume_08-2021.pdf">Resume</a>
-        </div>
+      <div>
+        <a href="mailto: daveshouse44@hotmail.com">Email Dave now!</a>
+        <a href="https://www.linkedin.com/in/david-tierney-652030214/"
+          >Linked In</a
+        >
+        <a href="https://github.com/daveshouse44">Git Hub</a>
+        <a href="images/David_Tierney_Resume_08-2021.pdf">Resume</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
