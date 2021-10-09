@@ -7,6 +7,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
 }
 
+* {
+    background-color: var(--heliotrope-gray);
+}
+
 body {
     background-color: var(--silver-pink);
     color: var(--space-cadet);
@@ -83,6 +87,7 @@ img {
 section.container {
     padding: 1.25em;
     border: 9px solid var(--heliotrope-gray);
+    background-color: var(--isabelline);
     width: auto;
     display: inline-block;
     text-align: justify;
