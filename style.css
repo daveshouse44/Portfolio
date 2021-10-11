@@ -39,6 +39,7 @@ header nav ul {
 }
 
 #myName {
+    color: var(--isabelline);
     text-shadow: .4em .4em 1em grey;
     line-height: 1em;
 }
@@ -98,7 +99,7 @@ section.container {
     padding: 1.25em;
     border: 9px solid var(--heliotrope-gray);
     width: auto;
-    display: inline-flex;
+    display: inline-block;
     text-align: justify;
 }
 
