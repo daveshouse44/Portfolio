@@ -1,5 +1,4 @@
 # Portfolio
-> This is my updated Profile Page!
 
 With diverse talent in many industries, Dave is taking his MERN stack development knowledge to his consultation business.
 
@@ -10,3 +9,11 @@ When he is not busy with work or personal projects, Dave enjoys outdoor adventur
 > [Check out the full portfolio here](https://daveshouse44.github.io/Portfolio/)
 
 ![Screenshot](images/Untitled.png)
+
+## Contact Me
+
+[GitHub](https://github.com/daveshouse44)
+
+[LinkedIn](https://www.linkedin.com/in/david-tierney-652030214/)
+
+[Email: daveshouse44@hotmail.com](mailto:daveshouse44@hotmail.com)
