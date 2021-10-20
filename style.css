@@ -62,7 +62,7 @@ img {
     display: flex;
     padding: 1.25em;
     border: 9px solid var(--heliotrope-gray);
-    height: 500px;
+    height: 300px;
 }
 
 .headerImage::before {
